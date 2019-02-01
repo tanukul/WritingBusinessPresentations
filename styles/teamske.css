@@ -1,0 +1,129 @@
+:root {
+  --tasSkeleton-padding: 24px;
+  --tasSkeleton-height: 500px;
+  --tasSkeleton-skeleton: linear-gradient(white var(--tasSkeleton-height), transparent 0);
+  
+  --paragraph1-width: 53%;
+  --paragraph1-height: 35%;
+  --paragraph1-position: 5% 31%;
+  --paragraph1-skeleton: linear-gradient(lightgrey 99%, transparent 0);
+  
+  --image-width: 35%;
+  --image-height: 35%;
+  --image-position: 96% 30%;
+  --image-skeleton: linear-gradient(lightgrey 99%, transparent 0);
+  
+ 
+  --title-height: 25%;
+  --title-width: 44%;
+  --title-right-top-position:6%; 
+  --title-right-bottom-position:5%;
+  --title-position: var(--title-right-bottom-position) 6%;
+  --title-skeleton: linear-gradient(lightgrey var(--title-height), transparent 0);
+  
+  --th-height: 30px;
+  --th-width: 10%;
+  --th-right-top-position:5%; 
+  --th-bottom-position: 68%;
+  --th-skeleton: linear-gradient(lightgrey var(--th-height), transparent 0);
+  --th-1-width:10%;
+  --th-1-position: 3% var(--th-bottom-position);
+  --th-2-width:10%;
+  --th-2-position: 25% var(--th-bottom-position);
+  --th-3-width:10%;
+  --th-3-position: 50% var(--th-bottom-position);
+  
+  --tr-height: 30px;
+  --tr-width: 10%;
+  --tr-right-top-position:5%; 
+  --tr-bottom-position: 82%;
+  --tr-skeleton: linear-gradient(lightgrey var(--tr-height), transparent 0);
+  --tr-1-width:10%;
+  --tr-1-position: 3% var(--tr-bottom-position);
+  --tr-2-width:10%;
+  --tr-2-position: 25% var(--tr-bottom-position);
+  --tr-3-width:10%;
+  --tr-3-position: 50% var(--tr-bottom-position);
+  
+  --button-height: 35px;
+  --button-width: 13%;
+  --button-right-top-position: 98%;
+  --button-bottom-position: 24%;
+  --button-position: var(--button-bottom-position) var(--button-right-top-position);
+  --button-skeleton: linear-gradient(lightgrey var(--button-height), transparent 0);
+  
+  --title-height: 25%;
+  --title-width: 44%;
+  --title-right-top-position:6%; 
+  --title-right-bottom-position:5%;
+  --title-position: var(--title-right-bottom-position) 6%;
+  --title-skeleton: linear-gradient(lightgrey var(--title-height), transparent 0);
+  
+  --footer-height: 0%;
+  --footer-position: 0 calc(var(--tasSkeleton-height) - var(--footer-height));
+  --footer-skeleton: linear-gradient(lightgrey var(--footer-height), transparent 0);
+  --blur-width: 50%;
+  --blur-size: var(--blur-width) calc(var(--tasSkeleton-height) - var(--footer-height));
+}
+
+/*
+ * tasSkeleton Skeleton for Loading
+ */
+.tasSkeleton {
+    max-width: 990px;
+    height: var(--tasSkeleton-height);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.tasSkeleton:empty::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(90deg, rgba(211, 211, 211, 0) 0, rgba(211, 211, 211, 0.8) 50%, rgba(211, 211, 211, 0) 100%),
+					var(--title-skeleton),
+					var(--th-skeleton),
+					var(--th-skeleton),
+					var(--th-skeleton),
+					var(--tr-skeleton),
+					var(--tr-skeleton),
+					var(--tr-skeleton),
+					var(--button-skeleton),
+					var(--paragraph1-skeleton),
+					var(--image-skeleton),
+					var(--footer-skeleton),
+					var(--tasSkeleton-skeleton);
+					
+  background-size: var(--blur-size),
+                   var(--title-width) var(--title-height),
+				   var(--th-1-width) var(--th-height), 
+				   var(--th-2-width) var(--th-height),
+				   var(--th-3-width) var(--th-height),
+				   var(--tr-1-width) var(--tr-height), 
+				   var(--tr-2-width) var(--tr-height),
+				   var(--tr-3-width) var(--tr-height),
+				   var(--button-width) var(--button-height),
+				   var(--paragraph1-width) var(--paragraph1-height),
+				   var(--image-width) var(--image-height),
+				   100% var(--footer-height),
+				   100% 100%;
+				   
+  background-position: -150% 0,
+                  var(--title-position), 
+				 var(--th-1-position),
+				  var(--th-2-position),
+				  var(--th-3-position),
+				  var(--tr-1-position),
+				  var(--tr-2-position),
+				  var(--tr-3-position),
+				  var(--button-position),
+				  var(--paragraph1-position), 
+				  var(--image-position), 
+				  var(--footer-position),
+				  0 0;
+				  
+  background-repeat: no-repeat;
+ 
+}

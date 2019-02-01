@@ -1,0 +1,101 @@
+.menu_button {
+  position: absolute;
+  padding: 0px;
+  top: 60px;
+  margin: 0px 80px ;
+}
+
+.menu_button button {
+  float: left;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  color: #000;
+  white-space: nowrap;
+  display: block;
+  margin-top: 15px;
+  padding: 2px 8px;
+  padding-bottom: 6px;
+  border: 0px;
+  min-width: initial;
+}
+.menu_button button span {
+  font-size: 0px;
+  height:0px;
+  margin: 0;
+  padding: 0;
+}
+.menu_button button[aria-expanded="true"] {
+  background: rgb(255, 255, 255);
+  border-radius: 5px 5px 0px 0px;
+  border: 2px solid #33A7C0;
+  border-bottom-width: 0;
+}
+
+.menu_button ul[role="menu"] {
+  font-size: 100%;
+  list-style: none;
+  z-index: 1;
+  display: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 500px;
+  max-width:550px;
+  max-height: 300px;
+  overflow: auto;
+  text-align: left;
+	border:2px solid #33A7C0;
+  background-color: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.menu_button ul[role="menu"] li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_button ul[role="menu"] a[role="menuitem"],
+.menu_button ul[role="menu"] a[role="menuitem"]:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: #FFF;
+  color: black;
+}
+
+/* focus and hover styling */
+
+.menu_button a:focus{
+  border: 2px solid #33A7C0;
+  background-color: #FFF;
+  padding: 2px;
+}
+
+.menu_button ul[role="menu"] a[role="menuitem"]:focus,
+.menu_button ul[role="menu"] a[role="menuitem"]:hover{
+  background-color: #FFF;
+  color: #000;
+}
+
+.menuitem{
+  text-decoration: none;
+  color: black;
+}
+
+#appmenulist li{
+  padding: 4px 2px; 
+  color: #fff;
+}
+
+#appmenulist :hover,
+#appmenulist :focus {
+  text-decoration: none;
+}
+
+#dummyMenuDiv{
+  position: absolute
+}

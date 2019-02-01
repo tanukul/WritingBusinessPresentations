@@ -1,0 +1,95 @@
+<div class="container">
+    <h2 class="pageheading pageTitle">Decision Point: Which Approach Will You Use?</h2>
+        <div class="pagedesc">
+           <p>You've previously defined the main idea or purpose of your presentation: informing the employees about the details of the new organizational structure. Now it's time to decide whether you will use a direct approach or an indirect approach in your presentation.</p>
+           <p>As with other forms of communication, a direct approach arranges the content in your presentation to introduce your main point before the supporting details. An indirect approach would present the supporting information before you state your main point.</p>
+           <p>Having analyzed your audience, which approach would be most appropriate for your presentation?</p>
+            <p><i>Select an option from the choices below and click <b>Submit.</b></i></p>
+        </div>
+        <div class="question-band">
+            <div class="option-group">
+                <table>
+                    <tr class="option1" optionID="1" opt_id="option1" onclick='QuestionOptionChanged(this);' iscorrect='0'
+                        qScore="1">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_5" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                       You will use a direct approach and introduce your main point first (the reorganization), followed by supporting information.
+                                    </span>
+
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option1"></span>
+                        </td>
+                    </tr>
+                    <tr class="option2" optionID="2" opt_id="option2" onclick='QuestionOptionChanged(this);' iscorrect='1'
+                        qScore="5">
+                        <td>
+                            <span class="iscorrect" style="display:none">
+                                <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                            </span>
+                            <div class="option_icon">
+                                <div class="optionIcons icon_33" aria-hidden="true"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="option_txt">
+                                <p>
+                                    <span>
+                                       You will use an indirect approach and begin your presentation with supporting information before introducing your main point (the reorganization). 
+                                    </span>
+                                </p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <span style="color:#790226;" id="span_option2"></span>
+                        </td>
+                    </tr>
+         
+                </table>
+            </div>
+        </div>
+        <div class="submit-btn" align="center">
+            <input type="button" class="btn" id="btnSubmit" value="Submit" onclick="SubmitQuestionResponse()">
+        </div>
+</div>
+<div class="submitFeedbackPopup">
+    <div id="fdk" optionID="1" opt_id="option1">
+        <p>
+            <span class="Open-Sans-Font-16px ">
+                You chose to use a direct approach in your presentation.
+                <span style="color:#77b401;">
+                    <strong>This was not the best choice.</strong>
+                </span>
+                A direct approach is appropriate if the subject involves routine information or good news. The reorganization is not routine, and many employees will likely not perceive it as being "good news."
+            </span>
+        </p>
+        <br />
+        <p class="feedback_instruction"><em>Click <strong>Next</strong> to continue. </em></p>
+    </div>
+    <div id="fdk" optionID="2" opt_id="option2">
+        <p>
+            <span class="Open-Sans-Font-16px ">
+                You chose to use an indirect approach in your presentation.
+                <span style="color:#1d7527;">
+                    <strong>This was the best choice.</strong>
+                </span>An indirect approach is appropriate if the subject involves negative news or persuasion. Given what Lloyd Baskin suggested about people being resistant to change, this approach would be most appropriate for your presentation.
+            </span>
+        </p>
+        <br />
+        <p class="feedback_instruction"><em>Click <strong>Next</strong> to continue. </em></p>
+    </div>  
+</div>

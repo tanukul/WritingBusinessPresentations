@@ -1,0 +1,895 @@
+input[type='radio'] {
+    width: 25px;
+    height: 25px;
+}
+
+/* first-page */
+
+.landing-page {
+    width: 100%;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+table {
+    width: 100%;
+}
+
+.dummyMenuDiv {
+    width: 40px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    margin-left: -5px;
+}
+
+.submit-btn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container .pageTitle {
+    color: #333333;
+}
+
+.pagedesc-1 {
+    width: 65%;
+    float: left;
+}
+
+.optimizeimage {
+    width: 35%;
+    float: left;
+}
+.optimizeimage img{
+    width: 100%;
+    height:auto;
+}
+/* ESR Page CSS */
+/*.scenario{
+    width: 100%;
+    float: left;
+}
+.scenario .scenarioimage{
+    width:50%;
+    float:left;
+}
+.scenario .scenariodetails{
+    width:50%;
+    float:right;
+}*/
+
+/* DM */
+
+.scenario {
+    width: 100%;
+    float: left;
+}
+.scenariodesc img{
+    float: left;
+    width: 346px;
+    height:225px;
+    padding-right: 10px;
+}
+ 
+.info-details-content{
+    padding-bottom: 15px;
+    overflow : auto;
+
+}
+ .pageinfo-details{
+    cursor:pointer;
+}
+/* page-3 */
+.table-popup{
+    display: -webkit-inline-box;
+}
+.table-popup img{
+    width: 50px;
+    float: left;
+    cursor: pointer;
+    border: 2px solid #ece8e8;
+    padding: 5px;
+    border-radius: 5px;
+}
+.table-popup span{
+    padding-left:10px;  
+}
+.table-popup i{
+    margin-top: 15px;
+    float: left;
+    padding-left: 10px;
+}
+/* STP */
+.section1{
+    float:left;
+}
+.option-group tr{
+    display: inline-block;
+}
+.option-group tr td:first-child {
+    width: 30px;
+}
+    
+/* second-page */
+.pagedesc p{
+margin: 12px 0;
+}
+.pagedesc img{
+    width:262px;
+    float:right;
+    padding-left: 10px;
+    text-align: center;
+}
+.MMpagedesc img {
+   width:600px !important;
+   margin-left:auto !important;
+   margin-right:auto !important;
+   display:block !important;
+}
+
+.customImgWidth img {
+  width:200px !important;
+
+}
+.pageinstruction {
+    clear: both;
+}
+
+
+/* third page */
+
+
+
+/*Question Css*/
+.questionband {
+    float: left;     
+}
+
+.option_icon{
+    float: left;
+    width: 60px;
+    /*margin-top: 2px;*/
+    height: 60px; 
+}
+.option_icon span {
+    border-radius: 31px;
+    background: #33A7C0;
+    color: #FFF;
+    font-size: 20px;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.option_icon .fa{
+    margin-top: calc(58px - 36px);
+}
+.option_txt{
+    margin-left: 20px;
+    cursor:pointer;
+}
+
+.option-group tr:hover td:first-child div {
+    /*background-color: #003058;
+	color:#F9FD32;*/
+}
+.option-group tr:hover td:nth-child(2) {
+    font-weight: bold;
+}
+.option-group tr td:first-child{
+    width: 6%;
+}
+    .option-group tr td:nth-child(2) {
+        width: 90%;
+    }
+
+    .option-group tr {
+        display: inline-table;
+        margin-top: 25px;
+        width: 98%;
+        padding-left: 8px;
+    }
+.segmentation tr{
+    display:inline-block!important;
+    margin-top: 25px;
+    width: 97%;
+}
+.segmentation tr td:first-child{
+    width: 30px!important;
+}
+
+    .segmentation tr td:nth-child(2) {
+        width: 10%;
+    }
+    .segmentation tr td:nth-child(3) {
+        width: 60%;
+    }
+.optionselected {
+    background-color: #f1f1f1 !important;
+    font-weight: bold !important;
+   
+}
+
+.optionselected.perImage {
+    background-color: #ffffff !important;
+    font-weight: 100 !important;
+}
+.optionspanselected{
+    /*background-color : #003058 !important;
+    color : #F9FF00 !important;*/
+}
+
+.submit-btn input,.close-btn input{
+    /*background:#33A7C0;*/
+     background:#007FA3;
+}
+
+.about-simulation{
+    display:block;
+	padding-top: 20px;
+    border-top: 1px solid #cccccc;
+}
+.close-btn{
+    padding-left: 50%
+}
+
+
+/*Question Css*/
+
+.pageaction{
+    position: relative;
+    bottom: 45px;
+    margin-left: 75%;
+    display: inline-flex;
+    float: none;
+}
+.pageaction div {
+    padding-right: 15px;
+}
+#pageaction_btn1, #pageaction_btn2, #pageaction_btn3 {
+    background-image: url(../assets/images/ico_play-18px-v1.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
+    cursor: pointer;
+    height: 21px;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+#pageaction_btn1, #pageaction_btn2, #pageaction_btn3 {
+    padding: 0px 0px;
+    min-width: 22px;
+    border-radius: 0px;
+}
+#pageaction_btn2 {
+    background-image: url(../assets/images/ico_transcript-18px-v1.png);
+}
+#pageaction_btn3 {
+    background-image: url(../assets/images/info.png);
+}
+
+.pageaction ul{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 70px;
+}
+.pageaction ul li{
+    list-style-type: none;
+    display: inline;
+    /* margin-right: 10px; */
+    margin-right:12px;
+    cursor:pointer;
+}
+.icon-play img,.transcript-popup img,.info-icon img{
+    position: relative;
+}
+/* 11-09 */
+
+.icon-play img {
+    width: 17px;
+    top: 1px;
+}
+
+.transcript-popup img {
+    width: 20px;
+    /*top: 2px;*/
+}
+.info-icon img{
+    width: 20px;
+    top: 2px;
+}
+
+.TeamMenu { 
+    background-color: #ffffff;
+    display: none;
+    width: 235px;
+    float:right;
+    border: 1px solid #c1c1c1;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+.TeamMenu a {
+    color: #790226;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 2px solid #7A0029;
+}
+.grayborder {
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+	padding-bottom: 5px;
+}
+
+#spanTeamName {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+#editIconTeamName {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 4px 10px;
+}
+
+#divMembers {
+    width: 100%;
+    display: inline-block;
+}
+
+#divMembers .grayborderTeam {
+    float: left;
+    border-bottom: 1px solid #c1c1c1;
+    width:100%;
+}
+
+#divMembers .divMembersDiv {
+    /*border-bottom: 1px solid #c1c1c1;*/
+    display: inline-block;
+    width: 80%;
+}
+
+.spanMaxHeading{
+    position:relative;
+    right:20px;
+}
+.spanMembersHeading{
+    position:relative;
+    right:30px;
+}
+#spanMaxTeamSize,#spanNoOfMembers{
+  float: right;
+  margin-right: 10px;
+}
+
+.teamProfile {
+    display: inline-block;
+    /*margin: 0px 50px;*/
+    margin-left: 85px;
+}
+.teamProfileIcon{
+    font-size: 20px;
+    color: #002E5C;
+}
+
+.teamProfileName{
+    float:left;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #003E64;
+    font-weight: bold;
+    cursor:pointer;
+}
+.teamProfileName a{
+    color:#7A0029;
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 2px solid #7A0029;
+}
+.TeamNameEditInput{
+    display:none;
+}
+.studentContainer{
+}
+.studentContainer h1{
+    color:#333333;
+}
+.studentContainerText p, .selectionTeam {
+    /*color: #606060;*/
+    font-size: 16px;
+    margin: 0;
+}
+.studentTeamImage{
+    float:right;
+    width:35%;
+    text-align:right;
+}
+.studentTeamImage img{
+    width:250px;
+    height:200px;
+}
+#editTeamName{
+    min-height: 20px;
+    height: 10px;
+    margin-top: 1px;
+    padding-left:5px;
+}
+.TeamNameEditInput #TeamNameSave,.TeamNameEditInput #TeamNameCancel{
+    color: white;
+    padding: 1px 15px;
+    border-radius: 5px;
+    background-color:#33A7C0;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px;
+    cursor: pointer;
+    min-width: 60px;
+}
+.selectionTeam{
+    clear: both;
+    /*border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;*/
+    padding-bottom: 20px;
+    width: 65%;
+    font-size: 16px;
+}
+.selectionTeam img{
+    position: relative;
+    top: 15px;
+    width: 40px;
+}
+.selectionTeam a {
+    font-size: 16px;
+    color: #0F7893;
+    font-weight: bold;
+    border-bottom: 2px solid #0F7893;
+    text-decoration: none;
+    /*text-transform: lowercase;*/
+}
+#txtTeamName {
+    padding:3px;
+}
+.manage-entry {
+    width: 65%;
+    margin: 10px 0px;
+    background: #fff;
+    border-collapse: collapse;
+    text-align: left;
+    color: #333333;
+}
+.manage-entry .hs{
+    color: #333333;
+    font-weight: 600;
+}
+.manage-entry .teammembers{
+    color: #7D7D7D;
+    font-weight: 600;
+    line-height: 25px
+}
+.manage-entry thead {
+     font-weight: normal;
+    border-bottom: 1px solid #cccccc;
+    white-space: nowrap;
+    font-size: 100%;
+}
+
+.manage-entry thead tr td {
+    white-space: nowrap;
+    padding: 10px 8px 5px 0px;
+
+}
+
+.manage-entry tr td {
+     font-weight: normal;
+     padding: 6px 10px
+}
+
+.manage-entry tbody tr:first-child td {
+    padding: 18px 10px;
+}
+
+
+.manage-entry tbody tr:not(.linespacerow) {
+    font-size: 12px;
+    font-weight: normal;
+    color: #7D7D7D;
+    border-bottom: 1px solid #cccccc;
+}
+    
+tr.disabled {
+     pointer-events: none;
+     color:#e8e8e8; 
+    }		
+tr.disabled:hover {
+      pointer-events: none;
+      color:#e8e8e8 !important;
+     }
+tr.disabled td:hover { 
+    pointer-events: none;
+     color:#e8e8e8 !important;
+ }
+.disinln {
+   display:inline-block;
+   margin:10px;
+}
+input[type='radio'] {
+     cursor:pointer;
+ }
+#divSetTeamName {
+    display:none;
+} 		
+
+.SaveBtn {
+    /* // background-color: #007ea4!important; */
+    /*background-color: #80BFD1 !important;*/
+    background-color: #33A7C0 !important;
+    color: #fff;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#btnSubmit {
+    /*background-color:#cccccc;*/
+    color: #fff;
+    border-radius:5px;
+    width: 80px;
+    cursor:pointer; 
+}
+#btnSubmit:focus{
+    outline:1px solid #cccccc;
+}
+.submitFeedbackPopup, .submitDragFeedbackPopup {
+    position: relative;
+    padding-top: 10px;
+    font-family: 'Open Sans' !important;
+    font-size: 16px;
+    display: none;
+    /*margin: 10px 80px 20px 100px;*/
+    border-top: 1px solid #f1f1f1;
+}
+
+    .submitFeedbackPopup div {
+        margin: 0 10%;
+    }
+
+.submitFeedbackPopupSummary {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+    .submitFeedbackPopupSummary div {
+        margin: 5px 10px 15px 10px !important;
+    }
+
+.submitFeedbackPopup #fdk {
+        display: none;
+    }
+
+.progressForeground.ProgressForeGroundColor {
+    background-color: #047a9c;
+    height: 6px;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: .5;
+}
+
+/*Radiobutton.css*/
+
+
+.manage-entry label {
+    display: inline-block;
+}
+
+
+
+.manage-entry thead th{
+    color: #333333;
+    font-weight: bold;
+    font-size:18px;
+}
+.manage-entrylabel + label {
+        margin-left: 13%;
+    }
+
+.manage-entry {
+    color: #999;
+    font-size: 15px;
+}
+.without-before:before{
+    content: none !important;
+}
+.manage-entry label {
+        position: relative;
+        padding-left: 11px;
+        cursor: pointer;
+        margin-top:30px;
+    }
+
+    .manage-entry label:after {
+        content: '';
+        width: 25px;
+        height: 25px;
+        border: 2px solid #333333;
+        position: absolute;
+        left: 0px;
+        background: #FFF;
+        bottom: 0px;
+        border-radius: 100%;
+        -ms-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+.manage-entry input[type="radio"] {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+    .manage-entry input[type="radio"]:checked + label {
+            color: #017EA1;
+        }
+
+.without-before:before {
+    content: none !important;
+}
+.addClass-after:after{
+    border: 2px solid #017EA1!important;
+}
+
+.manage-entry input[type="radio"]:checked + label:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    z-index: 1;
+    background: #047a9c;
+    left: 6px;
+    bottom: 6px;
+    border-radius: 100%;
+    -ms-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+.teamNameClass{
+    color: #047a9c;
+}
+.setBackgroundColor{
+    background: #EBEBEB;
+}
+/*Radiobutton.css*/
+
+
+/* checkbox css */
+
+.checkbox-item {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .checkbox-item input:checked ~ .checkmark {
+        background-color: #047A9C;
+    }
+
+.checkmark {
+    margin-top: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    margin: 5px;
+    border: 1px solid #cccccc;
+}
+
+.checkbox-item input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-item .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* checkbox css */
+
+
+/*/ table popup /*/
+
+.comrTablePopup {
+    display: none;
+}
+
+.comrTablePopup table {
+border: 1px solid #999999;
+border-collapse: collapse;
+}
+
+.comrTablePopup table tr th,
+.comrTablePopup table tr td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #999999;
+}
+
+/*/ table popup /*/
+
+/* segmentation checkbox style */
+
+input[type=checkbox]:checked:before {
+    border: rgb(0, 127, 163);
+    background: rgb(0, 127, 163);
+    content: url(../assets/images/corr_check.png);
+    color: #fff;
+    padding: 4px 0 0 2px;
+    border-radius: 2px;
+    font-size: 11px;
+    line-height: 19px;
+    position: relative;
+    bottom: 4px;
+}
+.checkitem input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+    margin-top: 3px;
+    border-radius: 2px;
+    content: '';
+    border: 1px solid silver;
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(100%, #fff), color-stop(0%, #efebeb));
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+}
+.no-focus .k-element-checklist input[type='checkbox'] {
+    outline: none;
+}
+td.checkitem {
+    padding-bottom: 0px !important;
+    vertical-align: middle;
+}
+
+/* segmentation checkbox style end */
+
+
+/* Drag n Drop css */
+#dropArea {
+    width: 48%;
+    float: left;
+}
+
+#dragArea {
+    width: 46%;
+    float: left;
+    margin: 0 0px 0px 4.5%;
+}
+
+.dropDivName {
+    margin-bottom:5px;
+    font-size:14px;
+}
+
+.dropDiv {
+    width: 330px;
+    min-height: 50px;
+    border: 1px solid #007fa3;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#delItem {
+    position: absolute;
+    right: -6px;
+    top: 8px;
+    cursor: pointer;
+    z-index: 101;
+}
+.dragDiv {
+    width: 220px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #e6e6e6;
+    color: #000000;
+    font-size: 15px;
+}
+
+#dragDiv p {
+    width: 97%;
+}
+
+input#btnEditTeamName {
+    min-width: 20px;
+    padding: 2px 5px;
+}
+
+.main-content {
+    min-height: 437px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.question-band{
+    display: inline-block;
+    width: 100%;
+}
+.dragdropwrap {
+    position: relative;
+    float: left;
+  }
+  .accessibility {
+    opacity: 0;
+    position: absolute;
+  }
+  .dummyMenuDiv {
+    width: 47px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    margin-left: 2px;
+    top: 49px;
+  }
+
+  .pagedesc1 img {
+    width:500px !important; 
+   margin-left:auto !important;
+   margin-right:auto !important;
+   display:block !important;
+}
+
+.result-section1 h2{
+    margin-top: 0px;
+  margin-bottom: 0px;
+    font-size: 16px;
+}

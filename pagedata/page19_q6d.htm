@@ -1,0 +1,155 @@
+<div class="container">
+    <h2 class="pageheading pageTitle">Decision Point: Crafting Your Presentation's Content</h2>
+    <div class="pagedesc">
+            <p>Like many other forms of business communication, presentations should have three distinct phases: the opening, the body, and the closing.</p>
+            <p>Let's start with your opening. Ideally, your opening should capture the audience's attention, establish rapport with them, and build your credibility.</p> 
+            <p>Of the following, which would be the most appropriate opening?</p>                
+            <p><i>Select an option from the choices below and click <b>Submit.</b></i></p>
+        </div>
+    <div class="question-band">
+        <div class="option-group">
+            <table>
+                <tr class="option1" optionID="1" opt_id="option1" onclick='QuestionOptionChanged(this);' iscorrect='1'
+                    qScore="5">
+                    <td>
+                        <span class="iscorrect" style="display:none">
+                            <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                        </span>
+                        <div class="option_icon">
+                            <div class="optionIcons icon_26" aria-hidden="true"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="option_txt">
+                            <p>
+                               <span>Start with a quote from President John F. Kennedy: "Change is the law of life, and those who look only to the past and present are certain to miss the future."</span>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td>
+                        <span style="color:#790226;" id="span_option1"></span>
+                    </td>
+                </tr>
+                <tr class="option2" optionID="2" opt_id="option2" onclick='QuestionOptionChanged(this);' iscorrect='0'
+                    qScore="1">
+                    <td>
+                        <span class="iscorrect" style="display:none">
+                            <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                        </span>
+                        <div class="option_icon">
+                            <div class="optionIcons icon_21" aria-hidden="true"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="option_txt">
+                            <p>
+                                <span>Start your presentation by introducing yourself and telling the audience that you're there to discuss the reorganization.  </span>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td>
+                        <span style="color:#790226;" id="span_option2"></span>
+                    </td>
+                </tr>
+                <tr class="option3" opt_id="option3" optionID="3" onclick='QuestionOptionChanged(this);' iscorrect='0'
+                    qScore="3">
+                    <td>
+                        <span class="iscorrect" style="display:none">
+                            <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                        </span>
+                        <div class="option_icon">
+                            <div class="optionIcons icon_53" aria-hidden="true"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="option_txt">
+                            <p>
+                               <span>Start your presentation by telling the audience that, according to a large management consulting firm, 70% of reorganizations led to increased value for the companies.</span>
+
+                            </p>
+
+                        </div>
+                    </td>
+                    <td>
+                        <span style="color:#790226;" id="span_option3"></span>
+                    </td>
+                </tr>
+                <tr class="option4" opt_id="option4" optionID="4" onclick='QuestionOptionChanged(this);' iscorrect='1'
+                qScore="5">
+                <td>
+                    <span class="iscorrect" style="display:none">
+                        <img src="assets/images/tick-icon-correct-1.png" aria-label="Correct Choice" style="position: absolute;margin-left: -30px;    margin-top: 7px;">
+                    </span>
+                    <div class="option_icon">
+                        <div class="optionIcons icon_20" aria-hidden="true"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="option_txt">
+                        <p>
+                           <span>Begin by asking members of the audience to raise their hands if they'd ever had a frustrating experience buying a product from a salesperson who had little product knowledge.</span>
+                        </p>
+
+                    </div>
+                </td>
+                <td>
+                    <span style="color:#790226;" id="span_option4"></span>
+                </td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    <div class="submit-btn" align="center">
+        <input type="button" class="btn" id="btnSubmit" value="Submit" onclick="SubmitQuestionResponse()">
+    </div>
+</div>
+<div class="submitFeedbackPopup">
+    <div id="fdk" optionID="1" opt_id="option1">
+        <p>
+            <span class="Open-Sans-Font-16px ">
+                You chose to begin your presentation with an inspirational quote.
+                <span style="color:#1d7527;">
+                    <strong>This was one of the best choices.</strong>
+                </span>
+                You've started with an attention-grabbing quote from someone with whom the audience is familiar. Keep in mind that you should tie this quote into the remainder of your presentation.                </span>
+        </p>
+        <br /><p class="feedback_instruction"><em>Click <strong>Next</strong> to continue. </em></p>
+    </div>
+    <div id="fdk" optionID="2" opt_id="option2">
+        <p>
+            <span class="Open-Sans-Font-16px ">
+                You chose to begin your presentation by introducing yourself and telling the audience that you're there to discuss the reorganization.
+                <span style="color:#77b401;">
+                    <strong>This was not the best choice.</strong>
+                </span>Your audience knows why you're there. Remember that you want to capture the audience's attention, establish rapport with them, and build your credibility. You've accomplished none of these with this opening. Another option would have been a better choice.
+            </span>
+        </p>
+        <br /><p class="feedback_instruction"><em>Click <strong>Next</strong> to continue. </em></p>
+    </div>
+    <div id="fdk" optionID="3" opt_id="option3">
+        <p>
+            <span class="Default">
+                <span class="Open-Sans-Font-16px ">
+                    You chose to begin your presentation with a statement that 70% of reorganizations led to increased value for the companies.
+                    <span style="color:#77b401;">
+                        <strong>This was an OK choice.</strong>
+                    </span>
+                    Stating positive research like this can be a good opening, but it would have been stronger if you could have pointed to how the reorganization benefited employees, not just the company.                </span>
+            </span>
+        </p>
+        <br /><p class="feedback_instruction"><em>Click <strong>Next</strong> to continue. </em></p>
+    </div>
+    <div id="fdk" optionID="4" opt_id="option4">
+        <p>
+            <span class="Open-Sans-Font-16px ">
+                You chose to start your presentation by asking members of the audience if they'd had a frustrating experience buying a product from a salesperson who had little product knowledge.
+                <span style="color:#1d7527;">
+                    <strong>This was one of the best choices.</strong>
+                </span>
+                An easy way to get your audience's attention and get them engaged is to ask them a question that is relevant to your presentation. Keep in mind that you'll now need to address how the reorganization is going to tie into the rest of your presentation, such as how the new organization is going to make them specialists in a product line.            </span>
+        </p>
+        <br /><p class="feedback_instruction"><em>Click <strong>Next</strong> to continue. </em></p>
+    </div>
+</div>

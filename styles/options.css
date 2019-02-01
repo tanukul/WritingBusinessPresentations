@@ -1,0 +1,553 @@
+﻿.optionIcons {
+    background-image: url(../assets/images/SIM_Icons.png);
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+} 
+ 
+/*Icon 1*/
+.icon_1 {    
+    background-position: -8px -10px;    
+}
+
+.icon_1.optionspanselected, .icon_1:hover {
+    background-position: -8px -77px;
+}
+
+/*Icon 2*/
+.icon_2 {
+    background-position: -73px -10px;
+}
+
+.icon_2.optionspanselected, .icon_2:hover {
+    background-position: -73px -76px;
+}
+
+/*Icon 3*/
+.icon_3 {
+    background-position: -138px -10px;
+}
+
+.icon_3.optionspanselected, .icon_3:hover{
+    background-position: -138px -75px;
+}
+
+/*Icon 4*/
+.icon_4 {
+    background-position: -203px -10px;
+}
+
+.icon_4.optionspanselected, .icon_4:hover{
+    background-position: -203px -76px;
+}
+
+/*Icon 5*/
+.icon_5 {
+    background-position: -268px -10px;
+}
+
+.icon_5.optionspanselected, .icon_5:hover{
+    background-position: -268px -76px;
+}
+
+/*Icon 6*/
+.icon_6 {
+    background-position: -333px -10px;
+}
+
+.icon_6.optionspanselected, .icon_6:hover{
+    background-position: -333px -76px;
+}
+
+/*Icon 7*/
+.icon_7 {
+    background-position: -398px -10px;
+}
+
+.icon_7.optionspanselected, .icon_7:hover{
+    background-position: -398px -76px;
+}
+
+/*Icon 8*/
+.icon_8 {
+    background-position: -463px -10px;
+}
+
+.icon_8.optionspanselected, .icon_8:hover{
+    background-position: -463px -76px;
+}
+
+/*Icon 9*/
+.icon_9 {
+    background-position: -528px -10px;
+}
+
+.icon_9.optionspanselected, .icon_9:hover{
+    background-position: -528px -76px;
+}
+
+/*Icon 10*/
+.icon_10 {
+    background-position: -593px -10px;
+}
+
+.icon_10.optionspanselected, .icon_10:hover{
+    background-position: -593px -76px;
+}
+
+/*Icon 11*/
+.icon_11 {
+    background-position: -8px -142px;
+}
+
+.icon_11.optionspanselected, .icon_11:hover{
+    background-position: -8px -208px;
+}
+
+/*Icon 12*/
+.icon_12 {
+    background-position: -73px -142px;
+}
+
+.icon_12.optionspanselected, .icon_12:hover{
+    background-position: -73px -208px;
+}
+
+/*Icon 13*/
+.icon_13 {
+    background-position: -138px -142px;
+}
+
+.icon_13.optionspanselected, .icon_13:hover{
+    background-position: -138px -208px;
+}
+
+/*Icon 14*/
+.icon_14 {
+    background-position: -203px -142px;
+}
+
+.icon_14.optionspanselected, .icon_14:hover{
+    background-position: -203px -208px;
+}
+
+/*Icon 15*/
+.icon_15 {
+    background-position: -268px -142px;
+}
+
+.icon_15.optionspanselected, .icon_15:hover{
+    background-position: -268px -208px;
+}
+/*Icon 16*/
+.icon_16 {
+    background-position: -333px -142px;
+}
+
+.icon_16.optionspanselected, .icon_16:hover{
+    background-position: -333px -208px;
+}
+
+/*Icon 17*/
+.icon_17 {
+    background-position: -398px -142px;
+}
+
+.icon_17.optionspanselected, .icon_17:hover{
+    background-position: -398px -208px;
+}
+
+/*Icon 18*/
+.icon_18 {
+    background-position: -463px -142px;
+}
+
+.icon_18.optionspanselected, .icon_18:hover{
+    background-position: -463px -208px;
+}
+
+/*Icon 19*/
+.icon_19 {
+    background-position: -528px -142px;
+}
+
+.icon_19.optionspanselected, .icon_19:hover{
+    background-position: -528px -208px;
+}
+
+/*Icon 20*/
+.icon_20 {
+    background-position: -593px -142px;
+}
+
+.icon_20.optionspanselected, .icon_20:hover{
+    background-position: -593px -208px;
+}
+
+
+/*==========================*/
+
+/*Icon 21*/
+.icon_21 {
+    background-position: -8px -274px;
+}
+
+.icon_21.optionspanselected, .icon_21:hover{
+    background-position: -8px -340px;
+}
+
+/*Icon 22*/
+.icon_22 {
+    background-position: -73px -274px;
+}
+
+.icon_22.optionspanselected, .icon_22:hover{
+    background-position: -73px -340px;
+}
+
+
+/*Icon 23*/
+.icon_23 {
+    background-position: -138px -274px;
+}
+
+.icon_23.optionspanselected, .icon_23:hover{
+    background-position: -138px -340px;
+}
+
+/*Icon 24*/
+.icon_24 {
+    background-position: -203px -274px;
+}
+
+.icon_24.optionspanselected, .icon_24:hover{
+    background-position: -203px -340px;
+}
+
+/*Icon 25*/
+.icon_25 {
+    background-position: -268px -274px;
+}
+
+.icon_25.optionspanselected, .icon_25:hover{
+    background-position: -268px -340px;
+}
+/*Icon 26*/
+.icon_26 {
+    background-position: -333px -274px;
+}
+
+.icon_26.optionspanselected, .icon_26:hover{
+    background-position: -333px -340px;
+}
+
+/*Icon 27*/
+.icon_27 {
+    background-position: -398px -274px;
+}
+
+.icon_27.optionspanselected, .icon_27:hover{
+    background-position: -398px -340px;
+}
+
+/*Icon 28*/
+.icon_28 {
+    background-position: -463px -274px;
+}
+
+.icon_28.optionspanselected, .icon_28:hover{
+    background-position: -463px -340px;
+}
+
+/*Icon 29*/
+.icon_29 {
+    background-position: -528px -274px;
+}
+
+.icon_29.optionspanselected, .icon_29:hover{
+    background-position: -528px -340px;
+}
+
+/*Icon 30*/
+.icon_30 {
+    background-position: -593px -274px;
+}
+
+.icon_30.optionspanselected, .icon_30:hover{
+    background-position: -593px -340px;
+}
+
+/*==========================*/
+
+/*Icon 31*/
+.icon_31 {
+    background-position: -8px -406px;
+}
+
+.icon_31.optionspanselected, .icon_31:hover{
+    background-position: -8px -472px;
+}
+
+/*Icon 32*/
+.icon_32 {
+    background-position: -73px -406px;
+}
+
+.icon_32.optionspanselected, .icon_32:hover{
+    background-position: -73px -472px;
+}
+
+/*Icon 33*/
+.icon_33 {
+    background-position: -138px -406px;
+}
+
+.icon_33.optionspanselected, .icon_33:hover{
+    background-position: -138px -472px;
+}
+
+/*Icon 34*/
+.icon_34 {
+    background-position: -203px -406px;
+}
+
+.icon_34.optionspanselected, .icon_34:hover{
+    background-position: -203px -472px;
+}
+
+/*Icon 35*/
+.icon_35 {
+    background-position: -268px -406px;
+}
+
+.icon_35.optionspanselected, .icon_35:hover{
+    background-position: -268px -472px;
+}
+/*Icon 36*/
+.icon_36 {
+    background-position: -333px -406px;
+}
+
+.icon_36.optionspanselected, .icon_36:hover{
+    background-position: -333px -472px;
+}
+
+/*Icon 37*/
+.icon_37 {
+    background-position: -398px -406px;
+}
+
+.icon_37.optionspanselected, .icon_37:hover{
+    background-position: -398px -472px;
+}
+
+/*Icon 38*/
+.icon_38 {
+    background-position: -463px  -406px;
+}
+
+.icon_38.optionspanselected, .icon_38:hover{
+    background-position: -463px  -472px;
+}
+
+/*Icon 39*/
+.icon_39 {
+    background-position: -528px -406px;
+}
+
+.icon_39.optionspanselected, .icon_39:hover{
+    background-position: -528px -472px;
+}
+
+/*Icon 40*/
+.icon_40 {
+    background-position: -593px -406px;
+}
+
+.icon_40.optionspanselected, .icon_40:hover{
+    background-position: -593px -472px;
+}
+
+/*==========================*/
+
+/*Icon 41*/
+.icon_41 {
+    background-position: -8px -538px;
+}
+
+.icon_41.optionspanselected, .icon_41:hover{
+    background-position: -8px -604px;
+}
+
+/*Icon 42*/
+.icon_42 {
+    background-position: -73px -538px;
+}
+
+.icon_42.optionspanselected, .icon_42:hover{
+    background-position: -73px -604px;
+}
+
+
+/*Icon 43*/
+.icon_43 {
+    background-position: -138px -538px;
+}
+
+.icon_43.optionspanselected, .icon_43:hover{
+    background-position: -138px -604px;
+}
+
+/*Icon 44*/
+.icon_44 {
+    background-position: -203px -538px;
+}
+
+.icon_44.optionspanselected, .icon_44:hover{
+    background-position: -203px -604px;
+}
+
+/*Icon 45*/
+.icon_45 {
+    background-position: -268px -538px;
+}
+
+.icon_45.optionspanselected, .icon_45:hover{
+    background-position: -268px -604px;
+}
+/*Icon 46*/
+.icon_46 {
+    background-position: -333px -538px;
+}
+
+.icon_46.optionspanselected, .icon_46:hover{
+    background-position: -333px -604px;
+}
+
+/*Icon 47*/
+.icon_47 {
+    background-position: -398px -538px;
+}
+
+.icon_47.optionspanselected, .icon_47:hover{
+    background-position: -398px -604px;
+}
+
+/*Icon 48*/
+.icon_48 {
+    background-position: -463px -538px;
+}
+
+.icon_48.optionspanselected, .icon_48:hover{
+    background-position: -463px -604px;
+}
+
+/*Icon 49*/
+.icon_49 {
+    background-position: -528px -538px;
+}
+
+.icon_49.optionspanselected, .icon_49:hover{
+    background-position: -528px -604px;
+}
+
+/*Icon 50*/
+.icon_50 {
+    background-position: -593px -538px;
+}
+
+.icon_50.optionspanselected, .icon_50:hover{
+    background-position: -593px -604px;
+}
+
+/*=========================c=*/
+
+/*Icon 51*/
+.icon_51 {
+    background-position: -8px -670px;
+}
+
+.icon_51.optionspanselected, .icon_51:hover{
+    background-position: -8px -735px;
+}
+
+/*Icon 52*/
+.icon_52 {
+    background-position: -73px -670px;
+}
+
+.icon_52.optionspanselected, .icon_52:hover{
+    background-position: -73px -735px;
+}
+
+
+/*Icon 53*/
+.icon_53 {
+    background-position: -138px -670px;
+}
+
+.icon_53.optionspanselected, .icon_53:hover{
+    background-position: -138px -735px;
+}
+
+/*Icon 54*/ 
+.icon_54 {
+    background-position: -203px -670px;
+}
+
+.icon_54.optionspanselected, .icon_54:hover{
+    background-position: -203px -735px;
+}
+
+/*Icon 55*/
+.icon_55 {
+    background-position: -268px -670px;
+}
+
+.icon_55.optionspanselected, .icon_55:hover{
+    background-position: -268px -735px;
+}
+/*Icon 56*/
+.icon_56 {
+    background-position: -333px -670px;
+}
+
+.icon_56.optionspanselected, .icon_56:hover{
+    background-position: -333px -735px;
+}
+
+/*Icon 57*/
+.icon_57 {
+    background-position: -398px -670px;
+}
+
+.icon_57.optionspanselected, .icon_57:hover{
+    background-position: -398px -735px;
+}
+
+/*Icon 58*/
+.icon_58 {
+    background-position: -463px -670px;
+}
+
+.icon_58.optionspanselected, .icon_58:hover{
+    background-position: -463px -735px;
+}
+
+/*Icon 59*/
+.icon_59 {
+    background-position: -528px -670px;
+}
+
+.icon_59.optionspanselected, .icon_59:hover{
+    background-position: -528px -735px;
+}
+
+/*Icon 60*/
+.icon_60 {
+    background-position: -593px -670px;
+}
+
+.icon_60.optionspanselected, .icon_60:hover{
+    background-position: -593px -735px;
+}

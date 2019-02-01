@@ -1,0 +1,356 @@
+﻿
+@media screen and (max-width : 1024px) {
+    #transcriptDetails {
+        padding-bottom:37px;
+    }
+
+}
+@media  screen and (max-width:940px){
+  /*wrapper{
+      border:0px;
+  }*/
+}
+@media  screen and (max-width: 900px) {  
+
+  .main-content,#infoDetails{
+    width: 97%;
+    margin:0 9%;
+   }
+   .main-content,#transcriptDetails{
+    width: 97%;
+    margin:0 9%;
+   }
+
+    
+}
+@media  screen and (max-width: 893px) {  
+  .main-content,#infoDetails {
+    margin:0 7%;
+   }
+   #appmenu {
+    left: 80px!important;
+  }
+}
+@media  screen and (max-width: 880px) {  
+  .main-content,#infoDetails {
+    margin:0 5%;
+   }
+   #appmenu {
+    left: 60px!important;
+  }
+}
+@media  screen and (max-width: 840px) {  
+  .main-content,#infoDetails {
+    margin:0 4%;
+   }
+   #appmenu {
+    left: 40px!important;
+  }
+}
+@media  screen and (max-width : 768px) {
+    #dropArea {
+        width: 80%;
+        float: left;
+    }
+
+    #dragArea {
+        width: 80%;
+        float: left;
+        margin: 3.5% 0px 0px 1.5%;
+    }
+  .studentContainerText{
+    width: 100%!important;
+   }
+   .main-content,#infoDetails {
+    margin:0 3%;
+   }
+   .main-content,#transcriptDetails {
+    margin:0 3%;
+   }
+
+    #transcriptDetails {
+    padding-bottom:37px;
+    }
+   .pagedesc-1 {
+    width: 60%;
+    float: left;
+   }
+   .optimizeimage {
+    width: 40%;
+    text-align: center;
+  }
+  .pagedesc p {
+     float: unset; 
+  }
+  .scenario .scenarioimageesr {
+    width: 100%!important;
+    float: left;
+}
+.scenario .scenariodetailsesr {
+  width: 100%!important;
+  float: right;
+}
+  .table-popup {
+    display: block;
+  }
+  .pageaction ul {
+    margin-right: 10px;
+  } 
+  #appmenu {
+    left: 20px!important;
+  }
+
+  .option-group .cl1,.option-group .cl2{
+    width:100%;
+  }
+  .option-group .cl2 img{
+    margin-left:0px;
+  }
+  .option-group .cl1 img,.option-group .cl2 img{
+    margin: 15px auto!important;
+    display: block;
+  }
+    .summaryScore p {
+     font-size:14px !important;
+    }
+
+}
+@media  screen and (max-width : 650px) {
+   #appmenu > li > ul {    
+    width:450px !important;
+    }
+    #transcriptDetails {
+        padding-bottom: 10px !important;
+    }
+}
+@media  screen and (max-width : 580px) {
+  
+
+}
+@media  screen and (max-width : 500px) {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media  screen and (max-width : 490px) {
+  .scenariodesc img{
+    width: 280px;
+    height: 200px;
+  }
+
+}
+@media  screen and (max-width : 440px) {
+
+
+}
+@media  screen and (max-width : 420px) {
+   
+   .pageaction ul {
+    margin-right: 10px;
+   } 
+  
+  #header-progress .progress {
+    margin-right: 50px;
+  }
+  #header-title .logo {
+    margin: 12px 2%;
+    height: 27px;
+    display:none;
+  }
+  #header-title h1 {
+    font-size:20px;
+    padding-top:10px;
+    width:100%;
+  }
+  #header-title h2 {
+    font-size:20px;
+    padding-top:10px;
+    width:100%;
+  }
+  /*Learning Objectives css-start*/
+    .pagedesc-1 {
+      font-size:14px !important;    
+    }
+    .resultPageDesc {
+     font-size:14px !important;    
+    }
+    /*Learning Objectives css-End*/
+
+  /*SCenario text css-Start*/
+    .scenariodesc {
+      font-size:14px !important;
+    }
+    /*SCenario text css-End*/
+  .pagedesc img {
+  
+    padding-left: 0px;
+    display:block !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    float:none !important;
+    width:250px !important;
+    margin-bottom: 10px !important;
+ }
+   .pagedesc-1 {
+    width: 100% !important;
+   
+   }
+   .optimizeimage {
+    width: 100% !important;
+    
+  }
+    .container h1 {
+      font-size:21px !important;
+    }
+    .container h2 {
+      font-size:21px !important;
+    }
+    .pagedesc {
+      font-size:14px !important;
+    }
+    .pageinstruction {
+     font-size:14px !important;
+    }
+
+
+
+    .option_txt {
+    font-size:14px!important;    
+    }
+
+    .option-group tr {
+      width:95% !important;
+    }
+
+    /*Abt Simulation css-Start*/
+    .info-details-content {
+       font-size:14px !important;
+    }
+    /*Abt Simulation css-End*/
+    /*Trnascript css -Start*/
+    #transcriptDetails{
+        font-size:14px !important;
+        padding-bottom:10px !important;
+    }
+
+    
+     /*Trnascript css -End*/
+
+     /*custom Image css-Start*/
+    .customImgWidth img {
+     width:150px !important;
+    }
+    /*custom Image css-End*/
+
+    .submitFeedbackPopup, .submitDragFeedbackPopup {
+      font-size:14px !important;    
+    }
+
+    .submitFeedbackPopup div {
+    margin:10px 80px 20px 10px !important;
+    width:95% !important;
+    }
+    /*Progress div css-Start*/
+    #progressInnrDiv {
+      font-size:14px !important;
+    }
+      /*Progress div css-End*/
+
+    /*Menu css-Start*/
+     #appmenu {
+    left: 5px!important;
+  }
+     #appmenu > li > ul {
+    max-width:340px !important;    
+    width:300px !important;
+    }
+    li[role='menuitem'] a {
+      font-size:14px !important;
+    }
+      /*Menu css-Start*/
+
+    /*Custom Mentoring Moment css-Start*/
+    .MMpagedesc {
+    font-size:14px !important;    
+    }
+
+    .MMpagedesc img {
+            width:330px !important;
+        }
+  /*Custom Mentoring Moment css-End*/
+
+     /*Result page css-Start*/
+    .c100 {
+      margin-bottom:8% !important;
+    }
+
+    #reportHTitle {
+        width: 40% !important;
+    }
+    input {
+      font-size:14px !important;
+    }
+    .qTitle h1 {
+     font-size:14px !important;
+    
+    }
+    
+    .qScore {
+     font-size:14px !important;
+    }
+    .qHeader div {
+      margin-right:2px !important;
+    }
+    .retryButtonDiv {
+      float:left !important;
+    }
+    .retryattemtDiv {
+    margin: 8px 14px 6px 0px !important;
+    }
+    .qTitle {
+     width:58% !important;
+    }
+    .qHeader img {
+      height:9px !important;
+      width:5px !important;
+    }
+      .qHeader img.selctImg {
+          width:8px !important;
+          height:6px !important;
+        }
+    .pieimage img {
+       height:12px !important;
+       width:11px !important;
+    }
+
+    .pieimage {
+       margin-left:8px !important;
+    }
+    .LOResultData {
+      font-size:14px !important;
+    }
+
+    .LOResulteText {
+      width:23% !important;
+    }
+     /*Result page css-End*/
+}
+@media  screen and (max-width : 320px) {
+  #header-title .logo {
+    display:none;
+  }
+  #progressInnrDiv {
+    margin-left:0px;
+  }
+ 
+  .pagedesc img {
+   float: left; 
+    padding-left: 0px;
+ }
+ #AboutPageBottomBtn,#CloseButton{
+  float: unset!important;
+  margin: 10px auto;
+  display: flex;
+ }
+
+}
